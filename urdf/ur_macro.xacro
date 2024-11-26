@@ -51,6 +51,7 @@
   -->
 
   <xacro:include filename="$(find ur_description)/urdf/inc/ur_common.xacro" />
+  <xacro:include filename="$(find ur_description)/urdf/inc/ur_transmissions.xacro" />
 
   <xacro:macro name="ur_robot" params="
     name
@@ -358,6 +359,8 @@
       <child link="${tf_prefix}ft_frame"/>
       <origin xyz="0 0 0" rpy="${pi} 0 0"/>
     </joint>
+
+    <xacro:ur_arm_transmission prefix="${tf_prefix}" hw_interface="hardware_interface/PositionJointInterface" />
 
     <!-- ROS-Industrial 'base' frame - base_link to UR 'Base' Coordinates transform -->
     <link name="${tf_prefix}base"/>
