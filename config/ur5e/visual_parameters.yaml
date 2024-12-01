@@ -3,72 +3,72 @@ mesh_files:
     visual:
       mesh:
         package: ur_description
-        path: meshes/ur5e/visual/base.dae
+        path: meshes/ur5e/visual/base/model.gltf
     collision:
       mesh:
         package: ur_description
-        path: meshes/ur5e/collision/base.stl
+        path: meshes/ur5e/collision/base.obj
 
   shoulder:
     visual:
       mesh:
         package: ur_description
-        path: meshes/ur5e/visual/shoulder.dae
+        path: meshes/ur5e/visual/shoulder/model.gltf
     collision:
       mesh:
         package: ur_description
-        path: meshes/ur5e/collision/shoulder.stl
+        path: meshes/ur5e/collision/shoulder.obj
 
   upper_arm:
     visual:
       mesh:
         package: ur_description
-        path: meshes/ur5e/visual/upperarm.dae
+        path: meshes/ur5e/visual/upperarm/model.gltf
     collision:
       mesh:
         package: ur_description
-        path: meshes/ur5e/collision/upperarm.stl
+        path: meshes/ur5e/collision/upperarm.obj
       mesh_files:
 
   forearm:
     visual:
       mesh:
         package: ur_description
-        path: meshes/ur5e/visual/forearm.dae
+        path: meshes/ur5e/visual/forearm/model.gltf
     collision:
       mesh:
         package: ur_description
-        path: meshes/ur5e/collision/forearm.stl
+        path: meshes/ur5e/collision/forearm.obj
 
   wrist_1:
     visual:
       mesh:
         package: ur_description
-        path: meshes/ur5e/visual/wrist1.dae
+        path: meshes/ur5e/visual/wrist1/model.gltf
     collision:
       mesh:
         package: ur_description
-        path: meshes/ur5e/collision/wrist1.stl
+        path: meshes/ur5e/collision/wrist1.obj
     visual_offset: -0.127
 
   wrist_2:
     visual:
       mesh:
         package: ur_description
-        path: meshes/ur5e/visual/wrist2.dae
+        path: meshes/ur5e/visual/wrist2/model.gltf
     collision:
       mesh:
         package: ur_description
-        path: meshes/ur5e/collision/wrist2.stl
+        path: meshes/ur5e/collision/wrist2.obj
     visual_offset: -0.0997
 
   wrist_3:
     visual:
       mesh:
         package: ur_description
-        path: meshes/ur5e/visual/wrist3.dae
+        path: meshes/ur5e/visual/wrist3/model.gltf
     collision:
       mesh:
         package: ur_description
-        path: meshes/ur5e/collision/wrist3.stl
+        path: meshes/ur5e/collision/wrist3.obj
     visual_offset: -0.0989

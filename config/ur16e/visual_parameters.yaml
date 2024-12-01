@@ -6,93 +6,93 @@ mesh_files:
     visual:
       mesh:
         package: ur_description
-        path: meshes/ur10e/visual/base.dae
+        path: meshes/ur10e/visual/base/model.gltf
       material:
         name: "LightGrey"
         color: "0.7 0.7 0.7 1.0"
     collision:
       mesh:
         package: ur_description
-        path: meshes/ur10e/collision/base.stl
+        path: meshes/ur10e/collision/base.obj
 
   shoulder:
     visual:
       mesh:
         package: ur_description
-        path: meshes/ur10e/visual/shoulder.dae
+        path: meshes/ur10e/visual/shoulder/model.gltf
       material:
         name: "LightGrey"
         color: "0.7 0.7 0.7 1.0"
     collision:
       mesh:
         package: ur_description
-        path: meshes/ur10e/collision/shoulder.stl
+        path: meshes/ur10e/collision/shoulder.obj
 
   upper_arm:
     visual:
       mesh:
         package: ur_description
-        path: meshes/ur16e/visual/upperarm.dae
+        path: meshes/ur16e/visual/upperarm/model.gltf
       material:
         name: "LightGrey"
         color: "0.7 0.7 0.7 1.0"
     collision:
       mesh:
         package: ur_description
-        path: meshes/ur16e/collision/upperarm.stl
+        path: meshes/ur16e/collision/upperarm.obj
       mesh_files:
 
   forearm:
     visual:
       mesh:
         package: ur_description
-        path: meshes/ur16e/visual/forearm.dae
+        path: meshes/ur16e/visual/forearm/model.gltf
       material:
         name: "LightGrey"
         color: "0.7 0.7 0.7 1.0"
     collision:
       mesh:
         package: ur_description
-        path: meshes/ur16e/collision/forearm.stl
+        path: meshes/ur16e/collision/forearm.obj
 
   wrist_1:
     visual:
       mesh:
         package: ur_description
-        path: meshes/ur10e/visual/wrist1.dae
+        path: meshes/ur10e/visual/wrist1/model.gltf
       material:
         name: "LightGrey"
         color: "0.7 0.7 0.7 1.0"
     collision:
       mesh:
         package: ur_description
-        path: meshes/ur10e/collision/wrist1.stl
+        path: meshes/ur10e/collision/wrist1.obj
     visual_offset: -0.135
 
   wrist_2:
     visual:
       mesh:
         package: ur_description
-        path: meshes/ur10e/visual/wrist2.dae
+        path: meshes/ur10e/visual/wrist2/model.gltf
       material:
         name: "LightGrey"
         color: "0.7 0.7 0.7 1.0"
     collision:
       mesh:
         package: ur_description
-        path: meshes/ur10e/collision/wrist2.stl
+        path: meshes/ur10e/collision/wrist2.obj
     visual_offset: -0.12
 
   wrist_3:
     visual:
       mesh:
         package: ur_description
-        path: meshes/ur10e/visual/wrist3.dae
+        path: meshes/ur10e/visual/wrist3/model.gltf
       material:
         name: "LightGrey"
         color: "0.7 0.7 0.7 1.0"
     collision:
       mesh:
         package: ur_description
-        path: meshes/ur10e/collision/wrist3.stl
+        path: meshes/ur10e/collision/wrist3.obj
     visual_offset: -0.1168
